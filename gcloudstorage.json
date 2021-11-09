@@ -38,7 +38,7 @@
             },
             {
                 "module": "google_api_core",
-                "input_file": "wheels/google_api_core-2.2.1-py2.py3-none-any.whl"
+                "input_file": "wheels/google_api_core-2.2.2-py2.py3-none-any.whl"
             },
             {
                 "module": "google_api_python_client",
@@ -46,7 +46,7 @@
             },
             {
                 "module": "google_auth",
-                "input_file": "wheels/google_auth-2.3.2-py2.py3-none-any.whl"
+                "input_file": "wheels/google_auth-2.3.3-py2.py3-none-any.whl"
             },
             {
                 "module": "google_auth_httplib2",
@@ -58,7 +58,7 @@
             },
             {
                 "module": "httplib2",
-                "input_file": "wheels/httplib2-0.20.1-py3-none-any.whl"
+                "input_file": "wheels/httplib2-0.20.2-py3-none-any.whl"
             },
             {
                 "module": "idna",
@@ -78,7 +78,7 @@
             },
             {
                 "module": "pyparsing",
-                "input_file": "wheels/pyparsing-2.4.7-py2.py3-none-any.whl"
+                "input_file": "wheels/pyparsing-3.0.5-py3-none-any.whl"
             },
             {
                 "module": "python_magic",
@@ -94,7 +94,7 @@
             },
             {
                 "module": "setuptools",
-                "input_file": "wheels/setuptools-58.3.0-py3-none-any.whl"
+                "input_file": "wheels/setuptools-58.5.3-py3-none-any.whl"
             },
             {
                 "module": "six",
