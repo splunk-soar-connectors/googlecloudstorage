@@ -38,7 +38,7 @@
             },
             {
                 "module": "google_api_core",
-                "input_file": "wheels/shared/google_api_core-2.4.0-py2.py3-none-any.whl"
+                "input_file": "wheels/py3/google_api_core-2.7.1-py3-none-any.whl"
             },
             {
                 "module": "google_api_python_client",
@@ -54,11 +54,11 @@
             },
             {
                 "module": "googleapis_common_protos",
-                "input_file": "wheels/shared/googleapis_common_protos-1.54.0-py2.py3-none-any.whl"
+                "input_file": "wheels/shared/googleapis_common_protos-1.55.0-py2.py3-none-any.whl"
             },
             {
                 "module": "httplib2",
-                "input_file": "wheels/py3/httplib2-0.20.2-py3-none-any.whl"
+                "input_file": "wheels/py3/httplib2-0.20.4-py3-none-any.whl"
             },
             {
                 "module": "idna",
@@ -91,10 +91,6 @@
             {
                 "module": "rsa",
                 "input_file": "wheels/py3/rsa-4.8-py3-none-any.whl"
-            },
-            {
-                "module": "setuptools",
-                "input_file": "wheels/py3/setuptools-59.6.0-py3-none-any.whl"
             },
             {
                 "module": "six",
@@ -1081,7 +1077,7 @@
             },
             {
                 "module": "google_api_core",
-                "input_file": "wheels/shared/google_api_core-2.4.0-py2.py3-none-any.whl"
+                "input_file": "wheels/py3/google_api_core-2.7.1-py3-none-any.whl"
             },
             {
                 "module": "google_api_python_client",
@@ -1097,11 +1093,11 @@
             },
             {
                 "module": "googleapis_common_protos",
-                "input_file": "wheels/shared/googleapis_common_protos-1.54.0-py2.py3-none-any.whl"
+                "input_file": "wheels/shared/googleapis_common_protos-1.55.0-py2.py3-none-any.whl"
             },
             {
                 "module": "httplib2",
-                "input_file": "wheels/py3/httplib2-0.20.2-py3-none-any.whl"
+                "input_file": "wheels/py3/httplib2-0.20.4-py3-none-any.whl"
             },
             {
                 "module": "idna",
@@ -1134,10 +1130,6 @@
             {
                 "module": "rsa",
                 "input_file": "wheels/py3/rsa-4.8-py3-none-any.whl"
-            },
-            {
-                "module": "setuptools",
-                "input_file": "wheels/py3/setuptools-60.6.0-py3-none-any.whl"
             },
             {
                 "module": "six",
