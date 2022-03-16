@@ -100,7 +100,8 @@ class GCloudStorageConnector(BaseConnector):
         try:
             service_account_json = json.loads(config['key_json'])
         except json.decoder.JSONDecodeError:
-            return action_result.set_status(phantom.APP_ERROR, "Please provide a valid value in 'service account json' asset configuration parameter")
+            return action_result.set_status(
+                phantom.APP_ERROR, "Please provide a valid value in 'service account json' asset configuration parameter")
 
         try:
             credentials = service_account.Credentials.from_service_account_info(
