@@ -20,21 +20,21 @@ from __future__ import print_function, unicode_literals
 import json
 import os
 import tempfile
-import magic
-import requests
 
+import googleapiclient.discovery
+import magic
 # Phantom App imports
 import phantom.app as phantom
-from phantom.base_connector import BaseConnector
-from phantom.action_result import ActionResult
-from phantom.vault import Vault
 import phantom.rules as Rules
+import requests
+from google.oauth2 import service_account
+from googleapiclient import errors
+from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
+from phantom.action_result import ActionResult
+from phantom.base_connector import BaseConnector
+from phantom.vault import Vault
 
 from gcloudstorage_consts import *
-import googleapiclient.discovery
-from google.oauth2 import service_account
-from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
-from googleapiclient import errors
 
 
 class RetVal(tuple):
@@ -439,8 +439,9 @@ class GCloudStorageConnector(BaseConnector):
 
 
 def main():
-    import pudb
     import argparse
+
+    import pudb
 
     pudb.set_trace()
 
