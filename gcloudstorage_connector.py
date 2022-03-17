@@ -1,6 +1,6 @@
 # File: gcloudstorage_connector.py
 #
-# Copyright (c) 2021 Splunk Inc.
+# Copyright (c) 2021-2022 Splunk Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,21 +20,21 @@ from __future__ import print_function, unicode_literals
 import json
 import os
 import tempfile
-import magic
-import requests
 
+import googleapiclient.discovery
+import magic
 # Phantom App imports
 import phantom.app as phantom
-from phantom.base_connector import BaseConnector
-from phantom.action_result import ActionResult
-from phantom.vault import Vault
 import phantom.rules as Rules
+import requests
+from google.oauth2 import service_account
+from googleapiclient import errors
+from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
+from phantom.action_result import ActionResult
+from phantom.base_connector import BaseConnector
+from phantom.vault import Vault
 
 from gcloudstorage_consts import *
-import googleapiclient.discovery
-from google.oauth2 import service_account
-from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
-from googleapiclient import errors
 
 
 class RetVal(tuple):
@@ -100,7 +100,8 @@ class GCloudStorageConnector(BaseConnector):
         try:
             service_account_json = json.loads(config['key_json'])
         except json.decoder.JSONDecodeError:
-            return action_result.set_status(phantom.APP_ERROR, "Please provide a valid value in 'service account json' asset configuration parameter")
+            return action_result.set_status(
+                phantom.APP_ERROR, "Please provide a valid value in 'service account json' asset configuration parameter")
 
         try:
             credentials = service_account.Credentials.from_service_account_info(
@@ -438,8 +439,9 @@ class GCloudStorageConnector(BaseConnector):
 
 
 def main():
-    import pudb
     import argparse
+
+    import pudb
 
     pudb.set_trace()
 
