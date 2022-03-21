@@ -46,7 +46,7 @@
             },
             {
                 "module": "google_auth",
-                "input_file": "wheels/shared/google_auth-2.6.0-py2.py3-none-any.whl"
+                "input_file": "wheels/shared/google_auth-2.6.2-py2.py3-none-any.whl"
             },
             {
                 "module": "google_auth_httplib2",
@@ -54,7 +54,7 @@
             },
             {
                 "module": "googleapis_common_protos",
-                "input_file": "wheels/shared/googleapis_common_protos-1.55.0-py2.py3-none-any.whl"
+                "input_file": "wheels/shared/googleapis_common_protos-1.56.0-py2.py3-none-any.whl"
             },
             {
                 "module": "httplib2",
@@ -102,7 +102,7 @@
             },
             {
                 "module": "urllib3",
-                "input_file": "wheels/shared/urllib3-1.26.8-py2.py3-none-any.whl"
+                "input_file": "wheels/shared/urllib3-1.26.9-py2.py3-none-any.whl"
             }
         ]
     },
@@ -1085,7 +1085,7 @@
             },
             {
                 "module": "google_auth",
-                "input_file": "wheels/shared/google_auth-2.6.0-py2.py3-none-any.whl"
+                "input_file": "wheels/shared/google_auth-2.6.2-py2.py3-none-any.whl"
             },
             {
                 "module": "google_auth_httplib2",
@@ -1093,7 +1093,7 @@
             },
             {
                 "module": "googleapis_common_protos",
-                "input_file": "wheels/shared/googleapis_common_protos-1.55.0-py2.py3-none-any.whl"
+                "input_file": "wheels/shared/googleapis_common_protos-1.56.0-py2.py3-none-any.whl"
             },
             {
                 "module": "httplib2",
@@ -1141,7 +1141,7 @@
             },
             {
                 "module": "urllib3",
-                "input_file": "wheels/shared/urllib3-1.26.8-py2.py3-none-any.whl"
+                "input_file": "wheels/shared/urllib3-1.26.9-py2.py3-none-any.whl"
             }
         ]
     }
