@@ -2,7 +2,7 @@
 # Google Cloud Storage
 
 Publisher: Splunk Community  
-Connector Version: 1\.0\.4  
+Connector Version: 1\.0\.5  
 Product Vendor: Google  
 Product Name: Cloud Storage  
 Product Version Supported (regex): "\.\*"  
