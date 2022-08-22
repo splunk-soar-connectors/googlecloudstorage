@@ -11,16 +11,12 @@
     "product_version_regex": ".*",
     "publisher": "Splunk Community",
     "license": "Copyright (c) 2021-2022 Splunk Inc.",
-    "contributors": [
-        {
-            "name": "Daniel Federschmidt"
-        }
-    ],
+    "contributors": "Daniel Federschmidt",
     "app_version": "1.0.4",
     "utctime_updated": "2022-01-07T20:31:13.000000Z",
     "package_name": "phantom_gcloudstorage",
     "main_module": "gcloudstorage_connector.py",
-    "min_phantom_version": "5.3.1",
+    "min_phantom_version": "5.3.0",
     "app_wizard_version": "1.0.0",
     "pip_dependencies": {
         "wheel": [
