@@ -20,7 +20,7 @@
     "utctime_updated": "2022-08-16T19:41:55.000000Z",
     "package_name": "phantom_gcloudstorage",
     "main_module": "gcloudstorage_connector.py",
-    "min_phantom_version": "5.1.0",
+    "min_phantom_version": "5.3.4",
     "app_wizard_version": "1.0.0",
     "pip_dependencies": {
         "wheel": [
@@ -66,7 +66,7 @@
             },
             {
                 "module": "protobuf",
-                "input_file": "wheels/py36/protobuf-3.19.0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "input_file": "wheels/py36/protobuf-3.19.5-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
                 "module": "pyasn1",
@@ -1105,7 +1105,7 @@
             },
             {
                 "module": "protobuf",
-                "input_file": "wheels/py39/protobuf-3.19.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "input_file": "wheels/py39/protobuf-3.19.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
                 "module": "pyasn1",
