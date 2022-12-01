@@ -6,7 +6,7 @@ Connector Version: 1\.0\.5
 Product Vendor: Google  
 Product Name: Cloud Storage  
 Product Version Supported (regex): "\.\*"  
-Minimum Product Version: 5\.1\.0  
+Minimum Product Version: 5\.3\.5  
 
 This app integrates with Google Cloud Storage API to support various investigative and generic actions
 
