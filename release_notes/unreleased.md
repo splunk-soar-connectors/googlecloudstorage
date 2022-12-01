@@ -1,1 +1,2 @@
 **Unreleased**
+* Security Update of protobuf per CVE-2022-1941 [PAPP-28006]
