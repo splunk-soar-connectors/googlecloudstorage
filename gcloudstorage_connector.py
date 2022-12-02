@@ -52,14 +52,14 @@ class GCloudStorageConnector(BaseConnector):
         if parameter is not None:
             try:
                 if not float(parameter).is_integer():
-                    return action_result.set_status(phantom.APP_ERROR, VALID_INTEGER_MSG.format(key=key)), None
+                    return action_result.set_status(phantom.APP_ERROR, VALID_INTEGER_MESSAGE.format(key=key)), None
 
                 parameter = int(parameter)
             except:
-                return action_result.set_status(phantom.APP_ERROR, VALID_INTEGER_MSG.format(key=key)), None
+                return action_result.set_status(phantom.APP_ERROR, VALID_INTEGER_MESSAGE.format(key=key)), None
 
             if parameter < 0:
-                return action_result.set_status(phantom.APP_ERROR, NON_NEGATIVE_INTEGER_MSG.format(key=key)), None
+                return action_result.set_status(phantom.APP_ERROR, NON_NEGATIVE_INTEGER_MESSAGE.format(key=key)), None
 
         return phantom.APP_SUCCESS, parameter
 
