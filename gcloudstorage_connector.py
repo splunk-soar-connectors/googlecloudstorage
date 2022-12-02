@@ -90,8 +90,8 @@ class GCloudStorageConnector(BaseConnector):
             else:
                 error_text = "Error Code: {0}. Error Message: {1}".format(error_code, error_message)
         except:
-            self.debug_print(PARSE_ERR_MSG)
-            error_text = PARSE_ERR_MSG
+            self.debug_print(PARSE_ERROR_MESSAGE)
+            error_text = PARSE_ERROR_MESSAGE
 
         return error_text
 
