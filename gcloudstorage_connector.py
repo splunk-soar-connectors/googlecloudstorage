@@ -52,14 +52,14 @@ class GCloudStorageConnector(BaseConnector):
         if parameter is not None:
             try:
                 if not float(parameter).is_integer():
-                    return action_result.set_status(phantom.APP_ERROR, VALID_INTEGER_MSG.format(key=key)), None
+                    return action_result.set_status(phantom.APP_ERROR, VALID_INTEGER_MESSAGE.format(key=key)), None
 
                 parameter = int(parameter)
             except:
-                return action_result.set_status(phantom.APP_ERROR, VALID_INTEGER_MSG.format(key=key)), None
+                return action_result.set_status(phantom.APP_ERROR, VALID_INTEGER_MESSAGE.format(key=key)), None
 
             if parameter < 0:
-                return action_result.set_status(phantom.APP_ERROR, NON_NEGATIVE_INTEGER_MSG.format(key=key)), None
+                return action_result.set_status(phantom.APP_ERROR, NON_NEGATIVE_INTEGER_MESSAGE.format(key=key)), None
 
         return phantom.APP_SUCCESS, parameter
 
@@ -73,25 +73,25 @@ class GCloudStorageConnector(BaseConnector):
             if e.args:
                 if len(e.args) > 1:
                     error_code = e.args[0]
-                    error_msg = e.args[1]
+                    error_message = e.args[1]
                 elif len(e.args) == 1:
-                    error_code = ERR_CODE_MSG
-                    error_msg = e.args[0]
+                    error_code = ERROR_CODE_MESSAGE
+                    error_message = e.args[0]
             else:
-                error_code = ERR_CODE_MSG
-                error_msg = ERR_MSG_UNAVAILABLE
+                error_code = ERROR_CODE_MESSAGE
+                error_message = ERROR_MESSAGE_UNAVAILABLE
         except:
-            error_code = ERR_CODE_MSG
-            error_msg = ERR_MSG_UNAVAILABLE
+            error_code = ERROR_CODE_MESSAGE
+            error_message = ERROR_MESSAGE_UNAVAILABLE
 
         try:
-            if error_code in ERR_CODE_MSG:
-                error_text = "Error Message: {0}".format(error_msg)
+            if error_code in ERROR_CODE_MESSAGE:
+                error_text = "Error Message: {0}".format(error_message)
             else:
-                error_text = "Error Code: {0}. Error Message: {1}".format(error_code, error_msg)
+                error_text = "Error Code: {0}. Error Message: {1}".format(error_code, error_message)
         except:
-            self.debug_print(PARSE_ERR_MSG)
-            error_text = PARSE_ERR_MSG
+            self.debug_print(PARSE_ERROR_MESSAGE)
+            error_text = PARSE_ERROR_MESSAGE
 
         return error_text
 

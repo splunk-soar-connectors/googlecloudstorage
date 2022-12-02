@@ -16,11 +16,11 @@ STORAGE_SERVICE_NAME = 'storage'
 STORAGE_SERVICE_VERSION = 'v1'
 
 # Integer validation constants
-VALID_INTEGER_MSG = "Please provide a valid integer value in the {key}"
-NON_NEGATIVE_INTEGER_MSG = "Please provide a valid non-negative integer value in the {key}"
+VALID_INTEGER_MESSAGE = "Please provide a valid integer value in the {key}"
+NON_NEGATIVE_INTEGER_MESSAGE = "Please provide a valid non-negative integer value in the {key}"
 MAX_OBJECTS_KEY = "'max objects' action parameter"
 
 # Error message handling constants
-ERR_CODE_MSG = "Error code unavailable"
-ERR_MSG_UNAVAILABLE = "Error message unavailable. Please check the asset configuration and|or action parameters"
-PARSE_ERR_MSG = "Unable to parse the error message. Please check the asset configuration and|or action parameters"
+ERROR_CODE_MESSAGE = "Error code unavailable"
+ERROR_MESSAGE_UNAVAILABLE = "Error message unavailable. Please check the asset configuration and|or action parameters"
+PARSE_ERROR_MESSAGE = "Unable to parse the error message. Please check the asset configuration and|or action parameters"
