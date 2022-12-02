@@ -22,5 +22,5 @@ MAX_OBJECTS_KEY = "'max objects' action parameter"
 
 # Error message handling constants
 ERROR_CODE_MESSAGE = "Error code unavailable"
-ERROR_MESSAGE_UNAVAILABLEAGE = "Error message unavailable. Please check the asset configuration and|or action parameters"
+ERROR_MESSAGE_UNAVAILABLE = "Error message unavailable. Please check the asset configuration and|or action parameters"
 PARSE_ERR_MSG = "Unable to parse the error message. Please check the asset configuration and|or action parameters"
