@@ -984,12 +984,8 @@
                 "input_file": "wheels/py3/cachetools-5.5.2-py3-none-any.whl"
             },
             {
-                "module": "chardet",
-                "input_file": "wheels/shared/chardet-4.0.0-py2.py3-none-any.whl"
-            },
-            {
                 "module": "google_api_core",
-                "input_file": "wheels/py3/google_api_core-2.24.2-py3-none-any.whl"
+                "input_file": "wheels/py3/google_api_core-2.25.0rc0-py3-none-any.whl"
             },
             {
                 "module": "google_api_python_client",
@@ -997,7 +993,7 @@
             },
             {
                 "module": "google_auth",
-                "input_file": "wheels/shared/google_auth-2.38.0-py2.py3-none-any.whl"
+                "input_file": "wheels/shared/google_auth-2.39.0-py2.py3-none-any.whl"
             },
             {
                 "module": "google_auth_httplib2",
@@ -1037,7 +1033,7 @@
             },
             {
                 "module": "rsa",
-                "input_file": "wheels/py3/rsa-4.9-py3-none-any.whl"
+                "input_file": "wheels/py3/rsa-4.9.1-py3-none-any.whl"
             },
             {
                 "module": "uritemplate",
@@ -1052,12 +1048,8 @@
                 "input_file": "wheels/py3/cachetools-5.5.2-py3-none-any.whl"
             },
             {
-                "module": "chardet",
-                "input_file": "wheels/shared/chardet-4.0.0-py2.py3-none-any.whl"
-            },
-            {
                 "module": "google_api_core",
-                "input_file": "wheels/py3/google_api_core-2.24.2-py3-none-any.whl"
+                "input_file": "wheels/py3/google_api_core-2.25.0rc0-py3-none-any.whl"
             },
             {
                 "module": "google_api_python_client",
@@ -1065,7 +1057,7 @@
             },
             {
                 "module": "google_auth",
-                "input_file": "wheels/shared/google_auth-2.38.0-py2.py3-none-any.whl"
+                "input_file": "wheels/shared/google_auth-2.39.0-py2.py3-none-any.whl"
             },
             {
                 "module": "google_auth_httplib2",
@@ -1105,7 +1097,7 @@
             },
             {
                 "module": "rsa",
-                "input_file": "wheels/py3/rsa-4.9-py3-none-any.whl"
+                "input_file": "wheels/py3/rsa-4.9.1-py3-none-any.whl"
             },
             {
                 "module": "uritemplate",
