@@ -1,7 +1,7 @@
 # Google Cloud Storage
 
 Publisher: Splunk Community <br>
-Connector Version: 1.0.6 <br>
+Connector Version: 1.1.0 <br>
 Product Vendor: Google <br>
 Product Name: Cloud Storage <br>
 Minimum Product Version: 5.3.5
