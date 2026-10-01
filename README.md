@@ -1,9 +1,9 @@
 # Google Cloud Storage
 
-Publisher: Splunk Community \
-Connector Version: 1.0.6 \
-Product Vendor: Google \
-Product Name: Cloud Storage \
+Publisher: Splunk Community <br>
+Connector Version: 1.0.6 <br>
+Product Vendor: Google <br>
+Product Name: Cloud Storage <br>
 Minimum Product Version: 5.3.5
 
 This app integrates with Google Cloud Storage API to support various investigative and generic actions
@@ -19,20 +19,20 @@ VARIABLE | REQUIRED | TYPE | DESCRIPTION
 
 ### Supported Actions
 
-[test connectivity](#action-test-connectivity) - Validate the asset configuration for connectivity using supplied configuration \
-[delete object](#action-delete-object) - Deletes object from a bucket \
-[list objects](#action-list-objects) - Retrieves a list of objects matching the criteria from the bucket \
-[get object](#action-get-object) - Retrieves object metadata and optionally downloads contents to vault \
-[create object](#action-create-object) - Creates object in a given bucket \
-[describe bucket](#action-describe-bucket) - Get information about a bucket \
-[list buckets](#action-list-buckets) - Retrieves a list of buckets for the configured project \
+[test connectivity](#action-test-connectivity) - Validate the asset configuration for connectivity using supplied configuration <br>
+[delete object](#action-delete-object) - Deletes object from a bucket <br>
+[list objects](#action-list-objects) - Retrieves a list of objects matching the criteria from the bucket <br>
+[get object](#action-get-object) - Retrieves object metadata and optionally downloads contents to vault <br>
+[create object](#action-create-object) - Creates object in a given bucket <br>
+[describe bucket](#action-describe-bucket) - Get information about a bucket <br>
+[list buckets](#action-list-buckets) - Retrieves a list of buckets for the configured project <br>
 [create bucket](#action-create-bucket) - Create a new bucket
 
 ## action: 'test connectivity'
 
 Validate the asset configuration for connectivity using supplied configuration
 
-Type: **test** \
+Type: **test** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -47,7 +47,7 @@ No Output
 
 Deletes object from a bucket
 
-Type: **generic** \
+Type: **generic** <br>
 Read only: **False**
 
 Deletes an object and its metadata. Deletions are permanent if versioning is not enabled for the bucket.
@@ -76,7 +76,7 @@ summary.total_objects_successful | numeric | | 1 |
 
 Retrieves a list of objects matching the criteria from the bucket
 
-Type: **investigate** \
+Type: **investigate** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -116,7 +116,7 @@ summary.total_objects_successful | numeric | | 1 |
 
 Retrieves object metadata and optionally downloads contents to vault
 
-Type: **investigate** \
+Type: **investigate** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -155,7 +155,7 @@ summary.total_objects_successful | numeric | | 1 |
 
 Creates object in a given bucket
 
-Type: **generic** \
+Type: **generic** <br>
 Read only: **False**
 
 #### Action Parameters
@@ -194,7 +194,7 @@ summary.total_objects_successful | numeric | | 1 |
 
 Get information about a bucket
 
-Type: **investigate** \
+Type: **investigate** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -227,7 +227,7 @@ summary.total_objects_successful | numeric | | 1 |
 
 Retrieves a list of buckets for the configured project
 
-Type: **investigate** \
+Type: **investigate** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -258,7 +258,7 @@ summary.total_objects_successful | numeric | | 1 |
 
 Create a new bucket
 
-Type: **generic** \
+Type: **generic** <br>
 Read only: **False**
 
 #### Action Parameters
@@ -293,7 +293,7 @@ ______________________________________________________________________
 
 Auto-generated Splunk SOAR Connector documentation.
 
-Copyright 2025 Splunk Inc.
+Copyright 2026 Splunk Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
